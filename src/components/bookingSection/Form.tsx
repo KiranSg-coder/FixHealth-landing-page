@@ -78,7 +78,7 @@ const Form = () => {
 
   useEffect(() => {
     axios
-      .get("https://mp99e4bc698d5dac5af1.free.beeceptor.com/data")
+      .get("https://mocki.io/v1/539dc73e-d1af-4d2e-9280-c967a19da35a")
       .then((res) => {
         setData(res.data);
         setFilteredData(res.data);
@@ -112,7 +112,7 @@ const Form = () => {
   return (
     <>
       <form
-        className="border p-3 rounded-lg mx-12 flex flex-col items-center "
+        className="border p-3 rounded-lg mx-5 flex flex-col items-center "
         onSubmit={handleSubmit}
       >
         {formStep === 1 && (
@@ -236,7 +236,7 @@ const Form = () => {
               {filteredData.length > 0 ? (
                 filteredData.map((item) => (
                   <div
-                    className={` border mb-5 p-4 cursor-pointer transition duration-300 transform hover:scale-105 shadow-lg ${
+                    className={` border mb-5 flex justify-around items-center p-2 cursor-pointer ${
                       selectedDoctor === item.name ? "border-red-500" : ""
                     } `}
                     key={item.id}
@@ -244,7 +244,7 @@ const Form = () => {
                   >
                     <img
                       src={item.photo_url}
-                      className="w-20 h-20 rounded-full mx-auto mb-3"
+                      className="w-20 h-20 rounded-full"
                       alt=""
                     />
 

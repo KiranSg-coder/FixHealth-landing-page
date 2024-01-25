@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "gender": "Male",
+    "specialist": "Orthopedic",
+    "city": "New York",
+    "experience": 15,
+    "photo_url": "https://example.com/photo1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Jane Smith",
+    "gender": "Female",
+    "specialist": "Cardiologist",
+    "city": "Los Angeles",
+    "experience": 20,
+    "photo_url": "https://example.com/photo2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Michael Johnson",
+    "gender": "Male",
+    "specialist": "Dermatologist",
+    "city": "Chicago",
+    "experience": 18,
+    "photo_url": "https://example.com/photo3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Davis",
+    "gender": "Female",
+    "specialist": "Pediatrician",
+    "city": "Houston",
+    "experience": 12,
+    "photo_url": "https://example.com/photo4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Robert White",
+    "gender": "Male",
+    "specialist": "Neurologist",
+    "city": "San Francisco",
+    "experience": 22,
+    "photo_url": "https://example.com/photo5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Olivia Brown",
+    "gender": "Female",
+    "specialist": "Ophthalmologist",
+    "city": "Miami",
+    "experience": 16,
+    "photo_url": "https://example.com/photo6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dr. William Taylor",
+    "gender": "Male",
+    "specialist": "ENT Specialist",
+    "city": "Seattle",
+    "experience": 19,
+    "photo_url": "https://example.com/photo7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Sophia Lee",
+    "gender": "Female",
+    "specialist": "Gynecologist",
+    "city": "Dallas",
+    "experience": 17,
+    "photo_url": "https://example.com/photo8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Ethan Clark",
+    "gender": "Male",
+    "specialist": "Psychiatrist",
+    "city": "Atlanta",
+    "experience": 21,
+    "photo_url": "https://example.com/photo9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Dr. Ava Johnson",
+    "gender": "Female",
+    "specialist": "Rheumatologist",
+    "city": "Phoenix",
+    "experience": 14,
+    "photo_url": "https://example.com/photo10.jpg"
+  }
+]
